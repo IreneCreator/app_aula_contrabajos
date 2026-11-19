@@ -50,7 +50,6 @@ class EstadoAula {
       ...puntuales.where((c) => c.fecha == fecha),
     ]..sort((a, b) => a.inicio.compareTo(b.inicio));
   }
-
   /// Clases fijas que tocarían ese día pero no se dan por ser festivo.
   List<Clase> clasesLiberadasPorFestivo(DateTime dia) => esFestivo(dia)
       ? (clases.where((c) => c.diaSemana == dia.weekday).toList()..sort((a, b) => a.inicio.compareTo(b.inicio)))
