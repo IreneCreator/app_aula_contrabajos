@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "8537049470",
+    "project_id": "aulacontrabajocoscyl",
+    "storage_bucket": "aulacontrabajocoscyl.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8537049470:android:be18eaa44b57bc35808b2f",
+        "android_client_info": {
+          "package_name": "com.example.aula_contrabajo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8537049470-if59l9sjdghv9fa284co7lakva8mmnhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHiHMn0g5IzkdzQd283prVOzD1yqvclCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8537049470-if59l9sjdghv9fa284co7lakva8mmnhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

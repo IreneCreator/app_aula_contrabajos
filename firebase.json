@@ -1,0 +1,49 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "aulacontrabajocoscyl",
+          "appId": "1:8537049470:android:be18eaa44b57bc35808b2f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "aulacontrabajocoscyl",
+          "configurations": {
+            "android": "1:8537049470:android:be18eaa44b57bc35808b2f",
+            "ios": "1:8537049470:ios:4717a2666f21d1ad808b2f",
+            "macos": "1:8537049470:ios:4717a2666f21d1ad808b2f",
+            "web": "1:8537049470:web:cc7342ea365b2b23808b2f",
+            "windows": "1:8537049470:web:40b193a5669f8090808b2f"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "*/.@(html|js|mjs|json|wasm|otf|ttf|woff|woff2)",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      },
+      {
+        "source": "assets/**",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      }
+    ]
+  }
+}
